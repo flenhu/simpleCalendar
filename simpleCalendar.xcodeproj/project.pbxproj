@@ -13,7 +13,7 @@
 		014A63E42A05D8B7007A1DD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014A63E32A05D8B7007A1DD9 /* Preview Assets.xcassets */; };
 		014A63EE2A05D8B7007A1DD9 /* simpleCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A63ED2A05D8B7007A1DD9 /* simpleCalendarTests.swift */; };
 		014A63F82A05D8B7007A1DD9 /* simpleCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A63F72A05D8B7007A1DD9 /* simpleCalendarUITests.swift */; };
-		014A63FA2A05D8B7007A1DD9 /* simpleCalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A63F92A05D8B7007A1DD9 /* simpleCalendarUITestsLaunchTests.swift */; };
+		014A64072A05D988007A1DD9 /* calendarLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A64062A05D988007A1DD9 /* calendarLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		014A63ED2A05D8B7007A1DD9 /* simpleCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleCalendarTests.swift; sourceTree = "<group>"; };
 		014A63F32A05D8B7007A1DD9 /* simpleCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		014A63F72A05D8B7007A1DD9 /* simpleCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleCalendarUITests.swift; sourceTree = "<group>"; };
-		014A63F92A05D8B7007A1DD9 /* simpleCalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleCalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		014A64062A05D988007A1DD9 /* calendarLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +94,10 @@
 		014A63DB2A05D8B6007A1DD9 /* simpleCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				014A63DC2A05D8B6007A1DD9 /* simpleCalendarApp.swift */,
+				014A64062A05D988007A1DD9 /* calendarLogic.swift */,
 				014A63DE2A05D8B6007A1DD9 /* ContentView.swift */,
 				014A63E02A05D8B7007A1DD9 /* Assets.xcassets */,
+				014A63DC2A05D8B6007A1DD9 /* simpleCalendarApp.swift */,
 				014A63E22A05D8B7007A1DD9 /* Preview Content */,
 			);
 			path = simpleCalendar;
@@ -122,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				014A63F72A05D8B7007A1DD9 /* simpleCalendarUITests.swift */,
-				014A63F92A05D8B7007A1DD9 /* simpleCalendarUITestsLaunchTests.swift */,
 			);
 			path = simpleCalendarUITests;
 			sourceTree = "<group>";
@@ -259,6 +259,7 @@
 			files = (
 				014A63DF2A05D8B6007A1DD9 /* ContentView.swift in Sources */,
 				014A63DD2A05D8B6007A1DD9 /* simpleCalendarApp.swift in Sources */,
+				014A64072A05D988007A1DD9 /* calendarLogic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014A63FA2A05D8B7007A1DD9 /* simpleCalendarUITestsLaunchTests.swift in Sources */,
 				014A63F82A05D8B7007A1DD9 /* simpleCalendarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
